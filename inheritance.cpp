@@ -27,8 +27,8 @@ class C : public A, public B
 public:
     void fun()
     {
-        cout << "Asx:" << A::x;
-        cout << "Bsx" << B::x;
+        cout << "Asx:" << A::x << endl;
+        cout << "Bsx" << B::x << endl;
     }
 };
 
