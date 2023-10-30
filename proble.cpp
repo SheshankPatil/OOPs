@@ -27,7 +27,7 @@ public:
 
 int main()
 {
-    // Input employee details
+
     std::string empName;
     double empSalary, empItrDeduction;
 
@@ -40,10 +40,8 @@ int main()
     std::cout << "Enter Income Tax Deduction: $";
     std::cin >> empItrDeduction;
 
-    // Create an Employee object
     Employee employee(empName, empSalary, empItrDeduction);
 
-    // Display employee details
     std::cout << "\nEmployee Details:\n";
     employee.displayDetails();
 
