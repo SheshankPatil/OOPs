@@ -9,6 +9,7 @@ private:
     {
     public:
         void print()
+        
         {
             cout << "nested class is private" << endl;
         }
